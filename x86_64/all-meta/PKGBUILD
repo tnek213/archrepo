@@ -1,8 +1,75 @@
 pkgname=all-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 pkgdesc='All favorite packages'
 arch=('any')
 depends=(
-  'tree'
+  'tree'                     # list directories in a tree
+  'android-udev'             # for android dev (for flutter)
+  'broot'                    # tree alternative for large hierarcies, fuzzy search + tree + cd
+  'inkscape'                 # vector paint program
+  'graphviz'                 # tool to create graphs from text descr
+  'jq'                       # handle json at the command line
+  'xz'                       # handle xz and lzma compressed files (for flutter)
+  'glu'                      # libGLU.so.1 (for flutter: flutter test)
+  'clang'                    # compiler (for flutter linux target)
+  'cmake'                    # cmake (for flutter linux target)
+  'ninja'                    # build system (for flutter linux target)
+  'pkgconf'                  # pkg-config (for flutter linux target)
+  'gtk3'                     # libgtk-3.so (for flutter linux target)
+  'wget'                     # get files over http
+  'exa'                      # more featureful ls command
+  'figlet'                   # for ascii banners
+  'neofetch'                 # cli system information utility
+  'krita'                    # advanced bitmap paint program
+  'pinta'                    # easy bitmap paint program
+  'tealdeer'                 # gives tl/dr for commands
+  'bat'                      # cat clone with syntax highlighting and git integration
+  'figlet'                   # additional fonts for figlet
+  'ranger'                   # text based file manager
+  'z'                        # quickly jump to most visited directories in terminal
+  'fzf'                      # command line fuzzy finder
+  'fd'                       # simple, fast and user-friendly alternative to find
+  'ripgrep'                  # search tool that combines the usability of ag with the raw speed of grep
+  'htop'                     # interactive process viewer like top
+  'glances'                  # cli curses-based monitoring tool
+  'strace'                   # a diagnostic, debugging and instructional userspace tracer
+  'ctop'                     # top-like interface for container metrics (like Docker)
+  'asciinema'                # record and share terminal sessions
+  'httpie'                   # curl alternative
+  'ncdu'                     # disk usage analyzer with an ncurses interface
+  'direnv'                   # a shell extension that manages your environment
+  'github-cli'               # the github cli
+  'gnu-netcat'               # used by for example https://streamhut.io/ to share the terminal
+  'translate-shell'          # a command-line interface and interactive shell for google translate
+  'libqalculate'             # cli calculator (named qalc)
+  'libreoffice-still'        # office suite (stable version)
+  'vlc'                      # multi-platform mpeg, vcd/dvd, and divx player
+  'gimp'                     # gnu image manipulation program
+  'audacity'                 # a program that lets you manipulate digital audio waveforms
+  'inkscape'                 # professional vector graphics editor
+  'krita'                    # edit and paint images
+  'discord'                  # all-in-one voice and text chat for gamers that's free and secure
+  'deluge-gtk'               # deluge bittorrent client
+  'vim'                      # text editor
+  'nano'                     # text editor
+  'blender'                  # a fully integrated 3d graphics creation suite
+  'firefox'                  # standalone web browser from mozilla.org
+  'xclip'                    # command line interface to the x11 clipboard
+  'inetutils'                # for telnet client
+  'mysql-workbench'          # cross-platform, visual database design tool developed by mysql
+  'gnome-keyring'            # for secrets, used by mysql-workbench
+  'libsecret'                # for secrets, used by mysql-workbench
+  'seahorse'                 # for secrets, manage the keyring
+  'whois'                    # whois client
+  'bind'                     # for nslookup etc
+  'perl-image-exiftool'      # exiftool, to extract/change exif info
+  'sqlite'                   # a c library that implements an sql database engine
+  'sqlitebrowser'            # sqlite database browser is a light gui editor for sqlite databases, built on top of qt
+  'csvkit'                   # A suite of utilities for converting to and working with CSV
+  'hyperfine'                # command line benchmarking tool
+  'zip'                      # create zip archives
+  'filelight'                # view disk usage information
+  'pdftk'                    # command-line tool for working with pdfs
+  'freerdp'                  # remote desktop client
 )
