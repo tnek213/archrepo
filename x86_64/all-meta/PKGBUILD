@@ -1,0 +1,8 @@
+pkgname=all-meta
+pkgver=1
+pkgrel=1
+pkgdesc='All favorite packages'
+arch=('any')
+depends=(
+  'tree'
+)
